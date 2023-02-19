@@ -1,0 +1,187 @@
+html {
+    background-size: cover;
+}
+
+.formulario-container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.div-radio {
+    width: 360px;
+}
+
+.check-aceite label {
+    font-size: 0.85rem;
+    margin-left: 5px;
+}
+
+.formulario-padrao {
+    width: 360px;
+    margin: 0px 10px;
+}
+
+#form_padrao {
+    background: var(--bd-base-forms);
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #c7c7c7;
+}
+
+.divisoes-forms {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formulario-padrao input,
+.aletar-senha input,
+.formulario-padrao select,
+.formulario-padrao option,
+select,
+select#sexo,
+select#estado_civil,
+input#dt_nascimento {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+#form_padrao input,
+.aletar-senha input,
+#form_padrao select,
+#form_padrao textarea,
+#form_padrao option,
+select,
+select#sexo,
+select#estado_civil {
+    border-radius: 3px 3px 0 0;
+    border-bottom: 3px solid var(--bd-primary);
+    background: var(--bd-inputs-gerais);
+    color: var(--color-label-forms);
+    font-size: 15px;
+    padding: 8px 10px !important;
+    font-family: FontPadraoRegularCond;
+}
+
+input#dt_nascimento {
+    width: auto !important;
+}
+
+.none {
+    display: none !important;
+}
+
+.divisoes-forms label {
+    color: var(--color-label-forms);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.divisoes-aceite label {
+    font-size: 0.85rem;
+    margin-left: 5px;
+}
+
+#ps_checkbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input#ac_condicoes, input#ac_politica_privacidade {
+    border-radius: initial !important;
+    border-bottom: initial !important;
+    background: initial !important;
+}
+
+input#ps_fisica, input#ps_juridica {
+    border-radius: 50% !important;
+    border-bottom: initial !important;
+    background: initial !important;
+}
+
+.check-aceite label {
+    font-size: 0.85rem;
+    margin-left: 5px;
+}
+
+.check-aceite {
+    margin-bottom: 10px;
+}
+
+#div-aceites {
+    display: flex;
+    flex-direction: column;
+}
+
+.divisoes-aceite label {
+    font-size: 0.85rem;
+    margin-left: 5px;
+}
+
+.divisoes-aceite {
+    margin-bottom: 10px;
+}
+
+.divisoes-forms-casado label {
+    color: var(--color-label-forms);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.div-doc {
+    background: var(--bd-primary);
+    width: 50rem;
+    height: 40rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+}
+
+.div-doc input[type="file"] {
+    display: none;
+}
+
+.doc_rg_anexo {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background: var(--color-base);
+}
+
+.bg-base-doc {
+    position: absolute;
+    background: var(--bd-geral-white);
+    transform: skewY(5deg);
+    transform-origin: bottom right;
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+}
+
+/*transform: rotate(45deg);*/
+/* css scroll lateral da lita*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--bd-primary) !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--bd-scroll-primary) !important;
+    border-radius: 10px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bd-scroll-primary-hover) !important;
+}

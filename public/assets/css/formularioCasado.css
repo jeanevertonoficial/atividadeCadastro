@@ -1,0 +1,30 @@
+.dados_conj {
+    text-align: center;
+
+    border-bottom: 2px solid rgb(140, 130, 112);
+}
+
+#icone-view, .botoes-view-ocul {
+    display: none;
+}
+.div-divisao-rg-orgao {
+    display: flex;
+    flex-direction: row;
+}
+
+.rg , .or {
+    width: 49%;
+}
+.rg {
+    margin-right: 5px;
+}
+
+.cont-form-casado {
+    margin: auto;
+}
+
+.divisoes-forms-casado {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}

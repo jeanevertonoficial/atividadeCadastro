@@ -1,0 +1,333 @@
+/** Estilo Mobile formulario padrão */
+@media screen and (max-width: 551px) {
+
+    .div-doc {
+        background: #4656ff;
+        width: 80%;
+        height: auto;
+        padding: 2rem;
+        box-shadow: 5px 5px 15px rgb(0 0 0 / 19%);
+        border-radius: 12px;
+    }
+
+    .texto-descricao-modal-doc p {
+        width: 13rem;
+    }
+
+    label.botao.doc_rg_anexo {
+        width: 80%;
+    }
+
+    .label-envie-seu-doc {
+        font-size: 45px;
+    }
+
+    .estilo-botao-doc-rg {
+        height: 45px;
+    }
+
+    button.btn-modal-doc-rg {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .formulario-padrao {
+        width: 305px;
+    }
+    #form_padrao {
+        margin: auto;
+        margin-left: auto;
+        width: 325px;
+        padding: 5px;
+    }
+
+    .formulario-container {
+        margin-bottom: 4rem;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .div-radio {
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .ajuste-botao {
+        display: flex;
+        justify-content: center;
+    }
+
+    .alinhar-txt label {
+        margin-top: 10px;
+    }
+
+    .alinhar-txt {
+        width: 90% !important;
+    }
+
+    .lista {
+        width: auto !important;
+    }
+
+    .posicao_lista_e_formulario,
+    .posicao_lista_e_formulario_lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .posicao_lista_e_formulario_lista {
+        margin-top: 25rem;
+    }
+
+    .posicao_lista_e_formulario {
+        margin-bottom: 5rem;
+    }
+
+    .div-codigo {
+        height: 430px;
+    }
+
+    .botoes-valida-reenvia {
+        flex-direction: column;
+    }
+
+    .botao-reenvia {
+        margin-top: 20px;
+    }
+
+    .modal-comprovante img, .img_modal {
+        width: 100%;
+    }
+    button.botao-modal-altera-senha {
+        font-weight: 500 !important;
+        width: 160px !important;
+    }
+    .base-botoes-modal-altera {
+        margin-top: 60px !important;
+        flex-direction: row !important;
+        width: auto !important;
+    }
+    .div-codigo-modal-altera {
+        margin-top: inherit !important;
+    }
+    .box-lista {
+        margin-top: 17rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 551px) {
+    #form_padrao {
+        background: var(--bd-base-forms);
+        padding: 32px 7px;
+        width: 350px;
+        margin: auto;
+    }
+    .progress {
+        width: 50%;
+    }
+
+    .botao.botao-abre-modal {
+        min-width: 160px;
+        width: 160px
+    }
+    html {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 912px) and  (min-width: 768px) {
+    #form_padrao {
+        background: var(--bd-base-forms);
+        padding: 32px 7px;
+        width: auto;
+        margin-bottom: 5rem;
+    }
+
+    .formulario-padrao {
+        width: 220px;
+    }
+
+    .form_casado {
+        display: initial;
+    }
+
+    html {
+        height: 100%;
+        background-size: cover;
+    }
+
+    .formulario-container {
+        margin-left: 1rem;
+    }
+
+    .div-box {
+        width: 95%;
+        margin: auto;
+        border-radius: 20px;
+        padding: 10px;
+        background: var(--bd-base-forms);
+        box-shadow: 0 0 10px #c7c7c7;
+    }
+}
+
+
+/** Estilo Mobile Formulario casado */
+
+@media screen and (max-width: 551px) {
+    input[type="date"]::before {
+        color: #6e6e6e;
+        content: attr(placeholder);
+    }
+
+    input[type="date"] {
+        color: transparent !important;
+    }
+
+    input[type="date"]:focus,
+    input[type="date"]:valid {
+        color: var(--color-label-forms) !important;
+    }
+
+    input[type="date"]:focus::before,
+    input[type="date"]:valid::before {
+        content: "" !important;
+    }
+
+    input[type="color"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="text"],
+    input[type="time"],
+    input[type="url"],
+    input[type="week"],
+    select:focus,
+    textarea {
+        font-size: 16px;
+    }
+
+    input[type="date"], select {
+        width: 93%;
+        padding: 8px 10px;
+        border: 1px solid rgba(0, 0, 0, 0.07);
+    }
+
+    select {
+        width: 100%;
+        padding: 8px 10px;
+        border: 1px solid rgba(0, 0, 0, 0.07);
+    }
+
+    .form_casado {
+        border-radius: 10px;
+        background: var(--bd-base-forms);
+        margin: auto;
+        margin-top: -43.4rem;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        width: 300px;
+        box-shadow: -26px 22px 14px rgb(0 0 0 / 47%);
+        z-index: 6000;
+        padding: 10px;
+    }
+
+    #icone-view, #icone-ocul {
+        width: 30%;
+        justify-content: space-evenly;
+        display: initial;
+        display: flex;
+        align-items: center;
+        font-size: small;
+        margin: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.27);
+        border-radius: 15px;
+    }
+
+
+    #icone-view:hover {
+        animation: spin 3s linear infinite;
+        background: var(--bd-primary);
+        color: #f3f3f3;
+    }
+
+    #icone-ocul:hover {
+        animation: spin 3s linear infinite;
+        background: var(--bd-primary);
+        color: #f3f3f3;
+    }
+
+    .botoes-view-ocul {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+/** Estilo Mobile Formulario Token/codigo */
+@media screen and (max-width: 551px) {
+    .container-codigo {
+        margin-top: 4rem;
+    }
+
+    .div-codigo {
+        width: 300px;
+    }
+
+
+    .estilo {
+        padding: 10px 15px !important;
+        background: var(--bd-primary);
+    }
+
+    .codigo-input {
+        flex-direction: column;
+    }
+
+    .codigo-input label {
+        font-size: small;
+    }
+
+}
+
+/** Estilo Mobile Barra de Passos*/
+@media screen and (max-width: 551px) {
+    .progress {
+        width: 100%;
+    }
+
+    .barra {
+        margin-bottom: 1rem;
+    }
+
+}
+
+/** Estilo Mobile Página não encontrada*/
+@media (max-width: 600px) {
+    .containar-box-text-img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .containar-box {
+        width: 80%;
+    }
+
+    .container-pg-naoencontrado {
+        margin-bottom: 15rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .containar-box {
+        width: 70%;
+    }
+}

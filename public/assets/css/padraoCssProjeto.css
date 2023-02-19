@@ -1,0 +1,24 @@
+:root{
+    --color-base: #FFF;
+    --color-label-forms: #444444;
+    --bd-primary: #032c35;
+    --bd-disabled: #e9eae3;
+    --bd-alert-info: #cce5ff;
+    --bd-alert-sucesso: #d3ecd9;
+    --bd-alert-erro: #f7d6d9;
+    --bd-modal-comprovante: rgba(3, 44, 53, 0.5);
+    --bd-primary-hover: #222222;
+    --bd-scroll-primary: #032c35;
+    --bd-scroll-primary-hover: #012126;
+    --btn-color-modal-home-hover: #c1bfbf;
+    --btn-color-modal-home: #032c35;
+    --bd-base-forms: #FFF;
+    --bd-inputs-gerais: rgba(189, 190, 169, 0.2);
+    --bd-html-padrao: #FFF;
+    --bd-geral-black: #000;
+    --bd-geral-white: #FFF;
+    --bd-alert-success: darkgreen;
+    --bd-alert-danger: darkred;
+    --bd-project: #e9eae3
+    /*--bd-project: url('../../img/bases/backgrand.svg')*/
+}

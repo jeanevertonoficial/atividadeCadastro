@@ -1,0 +1,23 @@
+/** Estilo Mobile pagina não encontrada*/
+.containar-box-text-img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.link-router {
+    text-decoration: none;
+}
+
+.container-pg-naoencontrado {
+    width: 100%;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.containar-box {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,36 @@
+.residencia{
+    border-top: 1px solid #dcdbdb;
+    border-bottom: 1px solid #dcdbdb;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.divisoes-forms textarea {
+    height: 84px;
+    padding: 10px;
+}
+
+.botao-endereco {
+    margin: initial;
+    padding: initial;
+}
+
+.comprovante {
+    padding: 10px 10px;
+    background-color: var(--bd-primary);
+    color: var(--bd-base-forms) !important;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+    min-width: auto !important;
+}
+.comprovante:hover {
+    background: var(--bd-primary-hover);
+}
+.container {
+    margin-top: 25px;
+}

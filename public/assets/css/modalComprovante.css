@@ -1,0 +1,89 @@
+.material-symbols-outlined del-comprovante {
+    color: var(--bd-alert-success);
+}
+
+.ver_comprovante span {
+    color: var(--bd-alert-danger);
+}
+
+.img_modal {
+    width: 80vw !important;
+    margin: auto;
+    height: 100vh;
+    position: relative;
+    animation: mymove;
+    display: flex;
+    animation-duration: 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-comprovante img {
+    margin: auto;
+    object-fit: scale-down;
+    box-shadow: 0px 0px 14px 0px var(--bd-modal-comprovante);
+    transition: 0.5s;
+    border-radius: 5px;
+    max-width: 972px;
+    max-height: 635px;
+}
+
+.modal-comprovante img:hover {
+    transition: 0.5s;
+    cursor: zoom-in;
+    border-radius: 0px;
+}
+
+.comprovante_nome {
+    font-size: small;
+    color: #929292;
+    margin: 0px;
+}
+.img_link{
+    display: inline-block;
+}
+.img_link a {
+    display: flex;
+    color: var(--bd-primary);
+    font-weight: 900;
+    text-decoration: none;
+    width: 100px;
+    transition: 0.5s;
+    transition: opacity .15s ease;
+    opacity: .5;
+}
+.img_link a:hover {
+    transition: 0.5s;
+    opacity: 1;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.modal-comprovante button {
+    float: right;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 15px;
+    background: var(--bd-primary);
+    border: none;
+    color: var(--color-base);
+    border-radius: 5px;
+    border: 1px solid;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    position: unset;
+    animation: mymove;
+    animation-duration: 0.5s;
+}
+
+.modal-comprovante button:hover {
+    background: var(--bd-geral-white);
+    color: var(--bd-geral-black);
+}
+
+.ver_comprovante {
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,52 @@
+.botao-personalizado {
+    margin: 35px 0px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 13px 30px;
+    min-width: 200px;
+    border-radius: 25px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.34);
+    border: none;
+    cursor: pointer;
+    font-family: FontPadraoRegularCond;
+}
+
+.botao:hover {
+    transition: .5s;
+    box-shadow: 0px 0px 0px rgba(152, 148, 148, 0.78);
+    background: var(--bd-primary-hover);
+    color: var(--bd-base-forms);
+}
+
+.botao-padrao {
+    background: var(--bd-primary);
+    color: var(--bd-base-forms);
+}
+
+.botao-token {
+    padding: 10px 35px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: var(--bd-base-forms);
+    background: var(--bd-primary);
+}
+
+.botao-reenvia {
+    background: var(--bd-primary) !important;
+    color: var(--color-base) !important;
+}
+
+.botao-reenvia:disabled {
+    cursor: no-drop;
+    background: var(--bd-disabled) !important;
+    color: var(--color-label-forms) !important;
+}
+
